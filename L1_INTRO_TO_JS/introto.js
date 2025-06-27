@@ -45,8 +45,14 @@
 // },2000);
 
 
-// for (let i =0; i<=5;i++){
-//     setTimeout(function (){
-//         console.log(i)
-//     },2000);
-// }
+//  for (let i =0; i<=5;i++){
+//      setTimeout(function (){          //THIS WILL PRINT 5
+//          console.log(i)
+//      },2000);
+//  }
+
+//   for (var i =0; i<=5;i++){
+//      setTimeout(function (){          //THIS WILL PRINT 6, 6 times
+//          console.log(i)
+//      },2000);
+//  }
