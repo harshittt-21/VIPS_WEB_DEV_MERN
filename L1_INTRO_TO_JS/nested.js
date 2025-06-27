@@ -27,6 +27,13 @@
 //     },2000)                     //will give 6 as output 6 times , why??? ==> var global scope 
 // }
 
+
+// for (let i=0 ; i<=5;i++){
+//     setTimeout(function(){
+//         console.log(i)         //0 to 5 output this time 
+//     },2000)                    //let -  each let creates a scope for their i   
+// }
+
 // console.log("start");
 
 // // setTimeout(() => {
@@ -43,15 +50,15 @@
 
 // to stop interval 
 // Start an interval
-let intervalID = setInterval(() => {
-  console.log("This will print every second");
-}, 1000);
-
-// Stop the interval after 5 seconds
-setTimeout(() => {
-  clearInterval(intervalID);
-  console.log("Interval stopped");
-}, 5000);
+// let intervalID = setInterval(() => {
+//   console.log("This will print every second");
+// }, 1000);
+//                                                 //output==>will print after every 1 sec and at the 5th sec it will stop
+// // Stop the interval after 5 seconds
+// setTimeout(() => {
+//   clearInterval(intervalID);
+//   console.log("Interval stopped");
+// }, 5000);
 
 
     
