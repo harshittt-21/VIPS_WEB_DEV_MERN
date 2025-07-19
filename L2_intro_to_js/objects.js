@@ -10,6 +10,10 @@ const jsuser = {
     age:20,
     loc: "DELHI"
 }
+for(let key in obj){  //for in
+    console.log(key," ",obj[key]);
+    
+}
 
 // console.log(jsuser.age)
 // console.log(jsuser[age])
